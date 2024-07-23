@@ -21,7 +21,7 @@ col1.write('Column 1')
 col1.header('HEADER')
 
 col2.write('Column 2')
-col2.writhe('HEEEEE')
+col2.write('HEEEEE')
 
 # Three columns with different widths
 col1, col2, col3 = st.columns([3,1,1])      # 화면 차지 비율을 등분 해주는 것
